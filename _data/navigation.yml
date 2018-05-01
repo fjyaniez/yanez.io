@@ -1,0 +1,13 @@
+languages:
+  - language: "es"
+    links:
+    - title: "Inicio"
+      url: /
+    - title: "Sobre mí"
+      url: /sobre-mi/
+  - language: "en"
+    links:
+    - title: "Home"
+      url: /en/
+    - title: "About me"
+      url: /about-me/
