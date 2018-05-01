@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <generator uri="http://jekyllrb.com" version="3.8.1">Jekyll</generator>
+  
+  
+  <link href="https://yanez.io/feed.xml" rel="self" type="application/atom+xml" />
+  <updated>2018-05-02T01:29:49+02:00</updated>
+  <id>https://yanez.io//</id>
+
+  
+    <title type="html">yanez.io</title>
+  
+
+  
+    <subtitle>Reflexiones, experiencias e introspección personal de una persona con una vida ligada a la tecnología, al estrés y al deseo de construir cosas nuevas y diferentes.</subtitle>
+  
+
+  
+    <author>
+        <name>Francis Yáñez</name>
+      
+        <email>hi@yanez.io</email>
+      
+      
+    </author>
+  
+
+  
+</feed>
