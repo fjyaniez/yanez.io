@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+  <loc>https://yanez.io/</loc>
+  <lastmod>2018-05-02T09:27:02+00:00</lastmod>
+  <priority>1.00</priority>
+  <xhtml:link
+             rel="alternate"
+             hreflang="en"
+             href="https://yanez.io/en"
+             />
+</url>
+<url>
+  <loc>https://yanez.io/sobre-mi/</loc>
+  <lastmod>2018-05-02T09:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+  <xhtml:link
+             rel="alternate"
+             hreflang="en"
+             href="https://yanez.io/about-me"
+             />
+</url>
+<url>
+  <loc>https://yanez.io/en/</loc>
+  <lastmod>2018-05-02T09:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+  <xhtml:link
+             rel="alternate"
+             hreflang="es"
+             href="https://yanez.io/"
+             />
+</url>
+<url>
+  <loc>https://yanez.io/about-me/</loc>
+  <lastmod>2018-05-02T09:27:02+00:00</lastmod>
+  <priority>0.64</priority>
+  <xhtml:link
+             rel="alternate"
+             hreflang="es"
+             href="https://yanez.io/sobre-mi"
+             />
+</url>
+
+
+</urlset>
