@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mí
-permalink: /sobre-mi/
+permalink: /sobre-mi
 lang: es
 lang\_order: 1
 ref: about-me
