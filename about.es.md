@@ -44,7 +44,12 @@ Y empieza la cuenta atrás... 🚀😉
 
 ## ¿Habéis llegado hasta aquí leyéndolo todo?
 
-¡Gracias! Si tenéis cualquier duda, sugerencia, idea o simplemente ganas de charlar, me podéis encontrar en [twitter][1] y también podéis contactar conmigo por [e-mail][2].
+**¡Gracias!** Si tenéis cualquier duda, sugerencia, idea o simplemente ganas de charlar, me podéis encontrar en [twitter][1] y también podéis contactar conmigo por [e-mail][2]. Además os dejo estos otros enlaces de interés: [yanez.io GIT][3], [yanez.io-theme GIT][4], [LinkedIn][5] e [Instagram][6].
+
 
 [1]:	https://twitter.com/fjyaniez "@fjyaniez"
 [2]:	mailto:hi@yanez.io "e-mail"
+[3]:	https://github.com/fjyaniez/yanez.io
+[4]:	https://github.com/fjyaniez/yanez.io-theme
+[5]:	https://www.linkedin.com/in/francisy
+[6]:	https://www.instagram.com/niam.8/
