@@ -587,3 +587,94 @@ tar: Exiting with failure status due to previous errors
   INFO [2e8ffd91] Running /usr/bin/env echo "Branch master (at 2db5829de186af94979e91648a4ab0947bf792e3) deployed as release 20180502002912 by fjyaniez" >> /home/web/revisions.log as web@yanez.io
  DEBUG [2e8ffd91] Command: cd /home/web/releases && /usr/bin/env echo "Branch master (at 2db5829de186af94979e91648a4ab0947bf792e3) deployed as release 20180502002912 by fjyaniez" >> /home/web/revisions.log
   INFO [2e8ffd91] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-05-02 11:18:33 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [432b7e0f] Running /usr/bin/env mkdir -p /tmp as web@yanez.io
+ DEBUG [432b7e0f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [432b7e0f] Finished in 1.244 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-yanez.io-production-fjyaniez.sh 0.0%
+  INFO Uploading /tmp/git-ssh-yanez.io-production-fjyaniez.sh 100.0%
+  INFO [a9782082] Running /usr/bin/env chmod 700 /tmp/git-ssh-yanez.io-production-fjyaniez.sh as web@yanez.io
+ DEBUG [a9782082] Command: /usr/bin/env chmod 700 /tmp/git-ssh-yanez.io-production-fjyaniez.sh
+  INFO [a9782082] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [7907fedb] Running /usr/bin/env git ls-remote https://github.com/fjyaniez/yanez.io.git HEAD as web@yanez.io
+ DEBUG [7907fedb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env git ls-remote https://github.com/fjyaniez/yanez.io.git HEAD )
+ DEBUG [7907fedb] 	ff590a4f5ed9a44998d4cca50ff8abea811f1307	HEAD
+  INFO [7907fedb] Finished in 0.646 seconds with exit status 0 (successful).
+  INFO [1ddf6933] Running /usr/bin/env mkdir -p /home/web/shared /home/web/releases as web@yanez.io
+ DEBUG [1ddf6933] Command: /usr/bin/env mkdir -p /home/web/shared /home/web/releases
+  INFO [1ddf6933] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [b0b619d2] Running [ -f /home/web/current/REVISION ] as web@yanez.io
+ DEBUG [b0b619d2] Command: [ -f /home/web/current/REVISION ]
+ DEBUG [b0b619d2] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [af231a39] Running /usr/bin/env cat /home/web/current/REVISION 2>/dev/null as web@yanez.io
+ DEBUG [af231a39] Command: /usr/bin/env cat /home/web/current/REVISION 2>/dev/null
+ DEBUG [af231a39] 	2db5829de186af94979e91648a4ab0947bf792e3
+ DEBUG [af231a39] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [13fa853e] Running [ -f /home/web/repo/HEAD ] as web@yanez.io
+ DEBUG [13fa853e] Command: [ -f /home/web/repo/HEAD ]
+ DEBUG [13fa853e] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/web/repo
+ DEBUG [2746e1eb] Running if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi as web@yanez.io
+ DEBUG [2746e1eb] Command: if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi
+ DEBUG [2746e1eb] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [5fbf743f] Running /usr/bin/env git remote set-url origin https://github.com/fjyaniez/yanez.io.git as web@yanez.io
+ DEBUG [5fbf743f] Command: cd /home/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env git remote set-url origin https://github.com/fjyaniez/yanez.io.git )
+  INFO [5fbf743f] Finished in 0.146 seconds with exit status 0 (successful).
+  INFO [f22c74e2] Running /usr/bin/env git remote update --prune as web@yanez.io
+ DEBUG [f22c74e2] Command: cd /home/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f22c74e2] 	Fetching origin
+ DEBUG [f22c74e2] 	From https://github.com/fjyaniez/yanez.io
+   2db5829..ff590a4  master     -> master
+  INFO [f22c74e2] Finished in 1.344 seconds with exit status 0 (successful).
+ DEBUG [c15076ff] Running if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi as web@yanez.io
+ DEBUG [c15076ff] Command: if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi
+ DEBUG [c15076ff] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [7c836f7f] Running /usr/bin/env mkdir -p /home/web/releases/20180502091836 as web@yanez.io
+ DEBUG [7c836f7f] Command: cd /home/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env mkdir -p /home/web/releases/20180502091836 )
+  INFO [7c836f7f] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [d6e6722f] Running /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /home/web/releases/20180502091836 as web@yanez.io
+ DEBUG [d6e6722f] Command: cd /home/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /home/web/releases/20180502091836 )
+  INFO [d6e6722f] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [d3b94e45] Running if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi as web@yanez.io
+ DEBUG [d3b94e45] Command: if test ! -d /home/web/repo; then echo "Directory does not exist '/home/web/repo'" 1>&2; false; fi
+ DEBUG [d3b94e45] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [f124d3c9] Running /usr/bin/env git rev-list --max-count=1 master as web@yanez.io
+ DEBUG [f124d3c9] Command: cd /home/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-yanez.io-production-fjyaniez.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f124d3c9] 	ff590a4f5ed9a44998d4cca50ff8abea811f1307
+ DEBUG [f124d3c9] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [8457f936] Running if test ! -d /home/web/releases/20180502091836; then echo "Directory does not exist '/home/web/releases/20180502091836'" 1>&2; false; fi as web@yanez.io
+ DEBUG [8457f936] Command: if test ! -d /home/web/releases/20180502091836; then echo "Directory does not exist '/home/web/releases/20180502091836'" 1>&2; false; fi
+ DEBUG [8457f936] Finished in 0.145 seconds with exit status 0 (successful).
+  INFO [b5aa714f] Running /usr/bin/env echo "ff590a4f5ed9a44998d4cca50ff8abea811f1307" > REVISION as web@yanez.io
+ DEBUG [b5aa714f] Command: cd /home/web/releases/20180502091836 && /usr/bin/env echo "ff590a4f5ed9a44998d4cca50ff8abea811f1307" > REVISION
+  INFO [b5aa714f] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [43ad51cd] Running /usr/bin/env ln -s /home/web/releases/20180502091836 /home/web/releases/current as web@yanez.io
+ DEBUG [43ad51cd] Command: /usr/bin/env ln -s /home/web/releases/20180502091836 /home/web/releases/current
+  INFO [43ad51cd] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [1f498152] Running /usr/bin/env mv /home/web/releases/current /home/web as web@yanez.io
+ DEBUG [1f498152] Command: /usr/bin/env mv /home/web/releases/current /home/web
+  INFO [1f498152] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [19651b0e] Running /usr/bin/env ls -x /home/web/releases as web@yanez.io
+ DEBUG [19651b0e] Command: /usr/bin/env ls -x /home/web/releases
+ DEBUG [19651b0e] 	20180501233825	20180501235535	20180502001250	20180502002644	20180502002912
+20180502091836
+ DEBUG [19651b0e] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on yanez.io
+ DEBUG [f8bf7c0c] Running [ -d /home/web/current ] as web@yanez.io
+ DEBUG [f8bf7c0c] Command: [ -d /home/web/current ]
+ DEBUG [f8bf7c0c] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [0df8f882] Running /usr/bin/env readlink /home/web/current as web@yanez.io
+ DEBUG [0df8f882] Command: /usr/bin/env readlink /home/web/current
+ DEBUG [0df8f882] 	/home/web/releases/20180502091836
+ DEBUG [0df8f882] Finished in 0.145 seconds with exit status 0 (successful).
+  INFO [de8b4dbe] Running /usr/bin/env rm -rf /home/web/releases/20180501233825 as web@yanez.io
+ DEBUG [de8b4dbe] Command: /usr/bin/env rm -rf /home/web/releases/20180501233825
+  INFO [de8b4dbe] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [c3e6e03a] Running if test ! -d /home/web/releases; then echo "Directory does not exist '/home/web/releases'" 1>&2; false; fi as web@yanez.io
+ DEBUG [c3e6e03a] Command: if test ! -d /home/web/releases; then echo "Directory does not exist '/home/web/releases'" 1>&2; false; fi
+ DEBUG [c3e6e03a] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [84c91167] Running /usr/bin/env echo "Branch master (at ff590a4f5ed9a44998d4cca50ff8abea811f1307) deployed as release 20180502091836 by fjyaniez" >> /home/web/revisions.log as web@yanez.io
+ DEBUG [84c91167] Command: cd /home/web/releases && /usr/bin/env echo "Branch master (at ff590a4f5ed9a44998d4cca50ff8abea811f1307) deployed as release 20180502091836 by fjyaniez" >> /home/web/revisions.log
+  INFO [84c91167] Finished in 0.146 seconds with exit status 0 (successful).
