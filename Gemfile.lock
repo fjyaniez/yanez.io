@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fjyaniez/yanez.io-theme.git
-  revision: 22607b5a47436ac35e4665331c482e55c9702831
+  revision: 4bd4a04832951ff4d3b2e0272ae32511072281e7
   specs:
     yanez.io-theme (0.1.8)
       jekyll (~> 3.6)

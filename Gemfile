@@ -12,7 +12,7 @@ gem 'jekyll', '~> 3.8.0'
 
 # Tale theme
 gem 'yanez.io-theme', git: 'https://github.com/fjyaniez/yanez.io-theme.git'
-#gem 'yanez.io-theme', path: '/Users/fjyaniez/Projects/personal/tale'
+#gem 'yanez.io-theme', path: '/Users/fjyaniez/Projects/personal/yanez.io-theme'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

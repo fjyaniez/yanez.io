@@ -32,9 +32,9 @@ lang: es
 languages: ["es", "en"]
 
 author:
-  name:         Francis Yáñez
-  url:          https://yanez.io
-  email:        hi@yanez.io
+  name: Francis Yáñez
+  url: https://yanez.io
+  email: hi@yanez.io
 
 # Build settings
 markdown: kramdown
@@ -46,7 +46,7 @@ plugins:
 permalink:      /:categories/:year-:month-:day/:title
 show_excerpts: true
 
-facebook_app_id: fjyaniez
+facebook_app_id: 588810241491620
 facebook_page: https://www.facebook.com/fjyaniez
 facebook_image: https://yanez.io/assets/images/yanez.io.png
 twitter_username: fjyaniez
