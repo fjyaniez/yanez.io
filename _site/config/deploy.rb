@@ -3,6 +3,7 @@ lock "~> 3.10.2"
 
 set :application, "yanez.io"
 set :repo_url, "https://github.com/fjyaniez/yanez.io.git"
+set :repo_tree, '_site'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
