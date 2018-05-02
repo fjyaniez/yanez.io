@@ -1,4 +1,5 @@
 .jekyll-metadata
 **/*.plist
+**/*.DS_Store
 log/*
 _site/log

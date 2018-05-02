@@ -9,7 +9,7 @@ ref: about-me
 
 ¡Hola! Soy Francis y esta es mi vida en imágenes:
 
-![Sobre mí]({{ "/assets/images/about-me.png" | absolute_url}})
+![Sobre mí]({{ "/assets/images/about-me.jpg" | absolute_url}})
 
 **Y esas son las cosas importantes.** El resto de mi tiempo se lo dedico a mi gran pasión. Soy ingeniero informático, CTO y co-fundador de Nazaríes IT, entusiasta del desarrollo en general y de Ruby on Rails con todo su ecosistema en particular.
 
