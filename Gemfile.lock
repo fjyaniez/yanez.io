@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/fjyaniez/yanez.io-theme.git
-  revision: a072f042b412059d8c529731f08b2f245ef4090c
+  revision: 551c4d9ccc47e65584122a1d0e7877416aeaeb5f
   specs:
-    yanez.io-theme (0.1.5)
+    yanez.io-theme (0.1.6)
       jekyll (~> 3.6)
       jekyll-paginate (~> 1.1)
 
