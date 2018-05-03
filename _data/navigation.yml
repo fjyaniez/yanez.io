@@ -4,10 +4,10 @@ languages:
     - title: "Inicio"
       url: /
     - title: "Sobre mí"
-      url: /sobre-mi/
+      url: /sobre-mi
   - language: "en"
     links:
     - title: "Home"
-      url: /en/
+      url: /en
     - title: "About me"
-      url: /about-me/
+      url: /about-me
