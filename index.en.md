@@ -5,9 +5,9 @@
 layout: home
 title: Home
 description: >- # this means to ignore newlines until "baseurl:"
-  Reflexiones, experiencias e introspección personal de una persona con una vida
-  ligada a la tecnología, al estrés y al deseo de construir cosas nuevas y
-  diferentes.
+  Thoughts, experiences and personal introspection from a person that has strong
+  bonds with technology, with stress and with the motivation of building new and
+  different things.
 permalink: /en
 lang: en
 lang_order: 2
