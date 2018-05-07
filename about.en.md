@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+description: What I'm really passionate about? I’m a computer engineer, CTO and co-founder of Nazaríes IT, a general development enthusiast and particularly about Ruby on Rails and its whole ecosystem.
 permalink: /about-me
 lang: en
 lang_order: 2
@@ -54,4 +55,4 @@ Also, you may find this links about this site interesting: [yanez.io GIT][5], [y
 [5]:	https://github.com/fjyaniez/yanez.io
 [6]:	https://github.com/fjyaniez/yanez.io-theme
 
-[image-1]:	/assets/images/about-me.jpg "Abot me"
+[image-1]:	/assets/images/about-me.jpg "About me"

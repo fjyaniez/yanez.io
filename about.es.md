@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre mí
+description: ¿Cuál es mi gran pasión? Soy ingeniero informático, CTO y co-fundador de Nazaríes IT, entusiasta del desarrollo en general y de Ruby on Rails con todo su ecosistema en particular.
 permalink: /sobre-mi
 lang: es
 lang_order: 1
