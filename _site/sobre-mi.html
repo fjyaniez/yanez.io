@@ -122,11 +122,11 @@
 
   <p>¡Hola! Soy Francis y esta es mi vida en imágenes:</p>
 
-<p><img src="https://yanez.io/assets/images/about-me.jpg" alt="Sobre mí" /></p>
+<p><img src="/assets/images/about-me.jpg" alt="Mi vida en imágenes" title="Sobre mí" /></p>
 
 <p><strong>Y esas son las cosas importantes.</strong> El resto de mi tiempo se lo dedico a mi gran pasión. Soy ingeniero informático, CTO y co-fundador de Nazaríes IT, entusiasta del desarrollo en general y de Ruby on Rails con todo su ecosistema en particular.</p>
 
-<p>Haciendo honor a los tópicos me considero <em>geek</em>, me encanta aprender y diseñar arquitecturas de aplicaciones y sistemas, y soy amante de las <em>best practices</em>.</p>
+<p>Haciendo honor a los tópicos me considero <em>geek</em>, me encanta aprender y diseñar arquitecturas de aplicaciones/sistemas y soy amante de las <em>best practices</em>.</p>
 
 <h2 id="un-poco-de-background">Un poco de <em>background</em></h2>
 
@@ -142,9 +142,9 @@
 <ul>
   <li><strong>Skade</strong>. Skade o <em>Skaði</em>, en honor a la diosa nórdica del invierno y el proyecto <em>flag-ship</em> durante la fundación de Nazaríes IT, es una plataforma de gestión integral de la vialidad invernal. Todavía funcionando desde 2009 en modo <em>legacy</em>, sirve para hacer <em>tracking</em> de flotas de vehículos de las conservaciones de carreteras destinados al mantenimiento de las autovías y carreteras de España, así como estaciones meteorológicas y de riego. Además de poder controlar el estado meteorológico a través de una red de estaciones instaladas en puntos claves, el estado de miles de vehículos y lo que están haciendo (movimiento, control del estado de la pala y difusor si es quitanieves), también controla el riego automático de agua con sal (salmuera) en varios viaductos de la red de carreteras española. Si el sistema detecta que hay peligro de que la calzada se congele, activa automáticamente los aspersores a través del autómata de riego (cuando todavía no se hablaba de <em>Machine Learning</em> ni la <em>IA</em> estaba de moda).</li>
   <li><strong>Tercermilenio TV.</strong> Ya difunto desde 2013, fue una plataforma de  <em>video on demand</em>  y <em>live video</em> que llegó a registrar más de 200.000 visitantes únicos al día.  No fue un proyecto propio de Nazaríes IT sino un desarrollo para un cliente, pero fue un reto enviar terabytes de vídeo a los usuarios, balancear cargas, y además añadir un componente social donde los usuarios podían valorar y comentar vídeos a la vez que se optimizaban los costes de infraestructura.</li>
-  <li><strong>Ceres</strong>. Siguiendo el éxito de <strong>Skade</strong>, en 2011 empezamos a trabajar en <strong>Ceres</strong> (diosa griega de la agricultura). Una solución web de monitorización de cultivos. Una interfaz y arquitectura más moderna, y sigue funcionando a día de hoy con cientos de dispositivos conectados.</li>
-  <li><strong>Port Monitor</strong>. Cansado de editar ficheros XML e instalar agentes para monitorizar todos los proyectos web que hacíamos desde Nazaríes IT con Nagios, implementé nuestra propia solución web tipo <em>Pingdom</em>. Luego la abrí al público en forma de beta y más tarde con suscripciones de pago, pero incluso aunque abandonara el desarrollo de la misma más allá de mantenimiento básico desde 2015, sigue generando suscripciones nuevas y tenemos una base de usuarios encantada con la solución. Adolece de problemas de escalabilidad.</li>
-  <li><strong>Plataforma IoT de Nazaríes IT</strong>. Lanzada a principios de 2017, es una evolución de <strong>Skade</strong> y <strong>Ceres</strong>.  Básicamente es una plataforma <em>IoT</em>  propia, que recibe datos desde cualquier dispositivo <em>IoT</em>: vehículos, estaciones meteorológicas, cámaras, plantas de tratamiento de aguas, sistemas de riego, sistemas de recogida basuras, estaciones en picifactorías… Es escalable horizontalmente y ha procesado picos de hasta 25.000 transacciones por segundo. No llega a ser orientada a micro servicios 100% pero tampoco es monolítica, digamos que es algo intermedio y que está funcionando bastante bien. Almacena <em>terabytes</em> de datos y por el momento, salvo algunos problemas que tienen solución, está escalando.</li>
+  <li><strong>Ceres</strong>. Siguiendo el éxito de <strong>Skade</strong>, en 2011 empezamos a trabajar en <strong>Ceres</strong> (diosa griega de la agricultura). Una solución web de monitorización de cultivos. Con una interfaz y arquitectura más moderna, sigue funcionando a día de hoy con cientos de dispositivos conectados.</li>
+  <li><strong>Port Monitor</strong>. Cansado de editar ficheros XML e instalar agentes para monitorizar todos los proyectos web que hacíamos desde Nazaríes IT con <em>Nagios</em>, implementé nuestra propia solución web tipo <em>Pingdom</em>. Luego la abrí al público en forma de beta y más tarde con suscripciones de pago Pero incluso aunque abandonara el desarrollo de la misma más allá de mantenimiento básico desde 2015, sigue generando suscripciones nuevas y tenemos una base de usuarios encantada con la solución. Adolece de problemas de escalabilidad.</li>
+  <li><strong>Plataforma IoT de Nazaríes IT</strong>. Lanzada a principios de 2017, es una evolución de <strong>Skade</strong> y <strong>Ceres</strong>.  Básicamente es una plataforma <em>IoT</em>  propia, que recibe datos desde cualquier dispositivo <em>IoT</em>: vehículos, estaciones meteorológicas, cámaras, plantas de tratamiento de aguas, sistemas de riego, sistemas de recogida basuras, estaciones en piscifactorías… Es escalable horizontalmente y ha procesado picos de hasta 25.000 transacciones por segundo. No llega a ser orientada a micro servicios 100% pero tampoco es monolítica, digamos que es algo intermedio y que está funcionando bastante bien. Almacena <em>terabytes</em> de datos y por el momento, salvo algunos problemas que tienen solución, está escalando.</li>
 </ul>
 
 <p>Hay otros proyectos en los que no he sido <em>product owner</em> pero he dejado un pedacito de mi como consultor tanto en el desarrollo como en la arquitectura y <em>management</em>. Proyectos cuyos clientes son grandes multinacionales y son usados por cientos de miles de usuarios. De este trabajo de consultoría he aprendido muchísimo, y es algo por lo que me siento afortunado.</p>
@@ -159,7 +159,9 @@
 
 <h2 id="habéis-llegado-hasta-aquí-leyéndolo-todo">¿Habéis llegado hasta aquí leyéndolo todo?</h2>
 
-<p><strong>¡Gracias!</strong> Si tenéis cualquier duda, sugerencia, idea o simplemente ganas de charlar, me podéis encontrar en <a href="https://twitter.com/fjyaniez" title="@fjyaniez">twitter</a> y también podéis contactar conmigo por <a href="mailto:hi@yanez.io" title="e-mail">e-mail</a>. Además os dejo estos otros enlaces de interés: <a href="https://github.com/fjyaniez/yanez.io">yanez.io GIT</a>, <a href="https://github.com/fjyaniez/yanez.io-theme">yanez.io-theme GIT</a>, <a href="https://www.linkedin.com/in/francisy">LinkedIn</a> e <a href="https://www.instagram.com/niam.8/">Instagram</a>.</p>
+<p><strong>¡Gracias!</strong> Si tenéis cualquier duda, sugerencia, idea o simplemente ganas de charlar, me podéis encontrar en <a href="https://twitter.com/fjyaniez" title="@fjyaniez">Twitter</a>,  <a href="https://www.linkedin.com/in/francisy">LinkedIn</a> e <a href="https://www.instagram.com/niam.8/">Instagram</a> y también podéis contactar conmigo por <a href="mailto:hi@yanez.io" title="e-mail">e-mail</a>.</p>
+
+<p>Además, os dejo estos otros enlaces de interés sobre este sitio: <a href="https://github.com/fjyaniez/yanez.io">yanez.io GIT</a>, <a href="https://github.com/fjyaniez/yanez.io-theme">yanez.io-theme GIT</a>.</p>
 
 
 
@@ -173,7 +175,7 @@
 
     <footer>
   <span>
-    &copy; <time datetime="2018-05-04 10:35:18 +0200">2018</time> Francis Yáñez.
+    &copy; <time datetime="2018-05-07 10:52:50 +0200">2018</time> Francis Yáñez.
   </span>
 </footer>
 
