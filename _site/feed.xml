@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
-  <generator uri="http://jekyllrb.com" version="3.8.1">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.8.2">Jekyll</generator>
   
   
   <link href="https://yanez.io/feed.xml" rel="self" type="application/atom+xml" />
-  <updated>2018-05-07T17:10:45+02:00</updated>
+  <updated>2018-05-26T22:50:31+02:00</updated>
   <id>https://yanez.io//</id>
 
   
@@ -25,6 +25,190 @@
     </author>
   
 
+  
+  
+    <entry xml:lang="en">
+      
+      <title type="html">Scoring high in PageSpeed with Jekyll</title>
+      
+
+      
+
+      <link rel="canonical" href="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
+
+      
+      
+        <link rel="alternate"  href="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
+      
+
+      <published>2018-05-26T00:00:00+02:00</published>
+      <updated>2018-05-26T00:00:00+02:00</updated>
+      <id>https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll</id>
+      <content type="html" xml:base="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll">&lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-26_22-30-37.png&quot; alt=&quot;&quot; title=&quot;Google PageSpeed Insights&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-something-simple&quot;&gt;Use something simple&lt;/h2&gt;
+
+&lt;p&gt;I built this site using &lt;a href=&quot;https://jekyllrb.com&quot; title=&quot;Jekyll&quot;&gt;Jekyll&lt;/a&gt; because I wanted something simple enough for:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Focusing on the content and not site administration (updates, plugins, security and that kind of mandatory stuff for some popular CMS).&lt;/li&gt;
+  &lt;li&gt;Building something fast, not over bloated with database connections, Javascript, CSS and calls to external sites.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So I chose a simple Jekyll template, customised it, initialized the Jekyll project, deployed it to a Google Cloud Engine VPS and run the PageSpeed Insights tool on it, because one of the first things you do when you put a new site online is to check its performance using Google PageSpeed Insights tool or similar, right?&lt;/p&gt;
+
+&lt;h2 id=&quot;test-it&quot;&gt;Test it&lt;/h2&gt;
+
+&lt;p&gt;The test scored terrible, about a 70% for a page with little CSS, just one image, simple HTML, the minimum JS to report to Google Analytics and just a few paragraphs of content.&lt;/p&gt;
+
+&lt;p&gt;Among several problems, these appeared to be the main ones:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;External calls (Google Analytics and Google Fonts).&lt;/li&gt;
+  &lt;li&gt;Non minimized CSS/HTML.&lt;/li&gt;
+  &lt;li&gt;Non-optimized images.&lt;/li&gt;
+  &lt;li&gt;Missing cache headers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Really, really disappointing.&lt;/p&gt;
+
+&lt;h2 id=&quot;fix-the-problems&quot;&gt;Fix the problems&lt;/h2&gt;
+
+&lt;p&gt;Ok,  the image had a size than more than 5 megabytes, that’s way too much. I used an online service for optimizing the png file, and it went down to 1,2 megabytes.&lt;/p&gt;
+
+&lt;p&gt;I also minimized the CSS and downloaded the fonts to serve them statically.&lt;/p&gt;
+
+&lt;p&gt;That should suffice I thought…&lt;/p&gt;
+
+&lt;p&gt;However, I still scored &amp;lt; 80%, both mobile and desktop versions, for a straightforward simple static blog. WTF.&lt;/p&gt;
+
+&lt;h2 id=&quot;actually-fix-the-problems&quot;&gt;Actually fix the problems&lt;/h2&gt;
+
+&lt;p&gt;I got serious and really investigated how could I fix the &lt;em&gt;performance&lt;/em&gt; problems PageSpeed had reported. My advantage, I was serving the site from a custom VPS server, so I had full control over it.&lt;/p&gt;
+
+&lt;p&gt;Moreover, I discovered &lt;strong&gt;&lt;a href=&quot;https://www.modpagespeed.com&quot; title=&quot;Apache PageSpeed&quot;&gt;Apache PageSpeed&lt;/a&gt;&lt;/strong&gt;,  open-source modules that optimize your site automatically. Too good to be true.&lt;/p&gt;
+
+&lt;p&gt;They provide modules for both Apache and Nginx servers. The only caveat, I had to uninstall Nginx from the CentOS repository and download and build it from source to compile it with the pagespeed modules. An easy task as they provide an &lt;a href=&quot;https://www.modpagespeed.com/doc/build_ngx_pagespeed_from_source&quot; title=&quot;automated install&quot;&gt;automated install&lt;/a&gt; script (just like rvm!).&lt;/p&gt;
+
+&lt;p&gt;They provide a ton of &lt;a href=&quot;https://www.modpagespeed.com/doc/&quot; title=&quot;mods&quot;&gt;mods&lt;/a&gt;! Let’s try to keep it simple.&lt;/p&gt;
+
+&lt;p&gt;What did I need:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Image optimizations.&lt;/li&gt;
+  &lt;li&gt;Make sure Google Analytics is called asynchronously.&lt;/li&gt;
+  &lt;li&gt;Minimize HTML and CSS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the key PageSpeed modules:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;make_google_analytics_async;&lt;/li&gt;
+  &lt;li&gt;collapse_whitespace,combine_css,rewrite_css,move_css_above_scripts,combine_javascript,rewrite_javascript;&lt;/li&gt;
+  &lt;li&gt;lazyload_images,inline_preview_images,resize_mobile_images,responsive_images,resize_images,rewrite_images;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is the resulted Nginx configuration file for the site:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;server {
+  server_name yanez.io;
+
+  root /home/web/current;
+  index index.html;
+
+  error_log /var/log/nginx/yanez.io.error.log;
+  access_log  /var/log/nginx/yanez.io.access.log;
+
+  listen 443 ssl http2; # managed by Certbot
+  ssl_certificate /etc/letsencrypt/live/yanez.io/fullchain.pem; # managed by Certbot
+  ssl_certificate_key /etc/letsencrypt/live/yanez.io/privkey.pem; # managed by Certbot
+  include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+  pagespeed on;
+
+  # Needs to exist and be writable by nginx.  Use tmpfs for best performance.
+  pagespeed FileCachePath /var/ngx_pagespeed_cache;
+
+  # Ensure requests for pagespeed optimized resources go to the pagespeed handler
+  # and no extraneous headers get set.
+  location ~ &quot;\.pagespeed\.([a-z]\.)?[a-z]{2}\.[^.]{10}\.[^.]+&quot; {
+    add_header &quot;&quot; &quot;&quot;;
+  }
+  location ~ &quot;^/pagespeed_static/&quot; { }
+  location ~ &quot;^/ngx_pagespeed_beacon$&quot; { }
+
+  pagespeed EnableFilters make_google_analytics_async;
+  pagespeed EnableFilters collapse_whitespace,combine_css,rewrite_css,move_css_above_scripts,combine_javascript,rewrite_javascript; 
+  pagespeed EnableFilters lazyload_images,inline_preview_images,resize_mobile_images,responsive_images,resize_images,rewrite_images;
+
+  if (!-f &quot;${request_filename}index.html&quot;) {
+    rewrite ^/(.*)/$ /$1 permanent;
+  }
+
+  if ($request_uri ~* &quot;/index.html&quot;) {
+    rewrite (?i)^(.*)index\.html$ $1 permanent;
+  }
+
+  if ($request_uri ~* &quot;.html&quot;) {
+    rewrite (?i)^(.*)/(.*)\.html $1/$2 permanent;
+  }
+
+  location ~*  \.(jpg|jpeg|png|gif|ico|css|js|pdf|woff2)$ {
+    expires 30d;
+  }
+
+  error_page 404 /404.html;
+
+  location / {
+    try_files $uri $uri.html $uri/ =404;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So, without changes to the site code, just adding PageSpeed module, I finally scored &lt;strong&gt;good&lt;/strong&gt; in Google PageSpeed Insights:&lt;/p&gt;
+
+&lt;h2 id=&quot;some-thoughts&quot;&gt;Some thoughts&lt;/h2&gt;
+
+&lt;p&gt;Not sure about the utility of PageSpeed. It looks like the important thing is the score and not the actual user experience.&lt;/p&gt;
+
+&lt;p&gt;For some stuff it’s useful. For example, I didn’t notice I put an excessively large image, and it pointed it out. Also, using the server’s cache for static resources is basic and it has a dedicated test for it.&lt;/p&gt;
+
+&lt;p&gt;However, will the user notice an 8.6kb CSS file is not minimized?  It would be handy it PageSpeed told you what’s the impact in the score of every issue it detects.&lt;/p&gt;
+
+&lt;p&gt;Some other paid tools like &lt;a href=&quot;https://www.woorank.com&quot; title=&quot;WooRank&quot;&gt;WooRank&lt;/a&gt; splits the issues it detects in different categories, like issues that would be good to correct, and issues that you must correct. But PageSpeed directly puts all the issues at the same level:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-26_22-29-49.png&quot; alt=&quot;&quot; title=&quot;PageSpeed results&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are using PageSpeed, you are a technical user. You don’t need complexity to be hidden. You want to know the details. You want to know that an 8.6kb CSS file being minimized would have an impact of 1.5% in your score and activate the cache in your server a 10%.&lt;/p&gt;
+
+&lt;p&gt;Anyway, despite all this simplicity, and being free, PageSpeed is a tool I’ll keep using. It’s from Google, it scores your site, and if your site does not score well in Google is a bad thing, right?&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Francis Yáñez</name>
+          
+            <email>hi@yanez.io</email>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry xml:lang="en">
