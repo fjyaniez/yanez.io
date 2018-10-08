@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Artículos interesantes de Mayo
+title: Artículos interesantes de Mayo 2018
 lang: es
-lang_order: 1
-ref:  interesting-articles-from-may
+lang\_order: 1
+ref:  interesting-articles-from-2018-may
 ---
 Una selección de artículos que he considerado interesantes en Mayo. La mayoría son de *Hacker News*, así que también enlazo a los comentarios.
 

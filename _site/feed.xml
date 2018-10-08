@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
-  <generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator>
   
   
-  <link href="https://yanez.io/feed.xml" rel="self" type="application/atom+xml" />
-  <updated>2018-06-15T11:57:45+02:00</updated>
-  <id>https://yanez.io//</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <updated>2018-10-08T11:16:21+02:00</updated>
+  <id>http://localhost:4000//</id>
 
   
     <title type="html">yanez.io</title>
@@ -29,22 +29,266 @@
   
     <entry xml:lang="es">
       
+      <title type="html">Artículos interesantes del verano de 2018</title>
+      
+
+      
+
+      <link rel="canonical" href="http://localhost:4000/es/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="es" title="Artículos interesantes del verano de 2018" />
+
+      
+      
+        <link rel="alternate"  href="http://localhost:4000/es/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="es" title="Artículos interesantes del verano de 2018" />
+      
+        <link rel="alternate"  href="http://localhost:4000/en/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="en" title="Interesting articles from 2018 summer" />
+      
+
+      <published>2018-09-30T00:00:00+02:00</published>
+      <updated>2018-09-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/es/2018-09-30/interesting-articles-from-2018-summer</id>
+      <content type="html" xml:base="http://localhost:4000/es/2018-09-30/interesting-articles-from-2018-summer">&lt;p&gt;He estado algo ocupado este verano descansando, pero estoy de vuelta con la selección de artículos que encontré interesantes durante mi “desconexión”. Como siempre, la fuente es Hacker News, así que también dejo el enlace a la discusión .&lt;/p&gt;
+
+&lt;h3 id=&quot;the-annoying-habits-of-highly-effective-people&quot;&gt;&lt;a href=&quot;https://www.economist.com/business/2018/09/29/the-annoying-habits-of-highly-effective-people&quot; title=&quot;The Annoying Habits of Highly Effective People&quot;&gt; The Annoying Habits of Highly Effective People &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Tus circunstancias son diferentes, así que no intentes copiar a la gente rica (&lt;a href=&quot;https://news.ycombinator.com/item?id=18111034&quot; title=&quot;discussion&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-are-enterprises-so-slow&quot;&gt;&lt;a href=&quot;https://zwischenzugs.com/2018/10/02/why-are-enterprises-so-slow/&quot; title=&quot;Why are Enterprises so Slow&quot;&gt; Why are Enterprises so Slow &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Todos sabemos que las grandes empresas con lentas, así que vamos a leer el enésimo artículo sobre el tema (&lt;a href=&quot;https://news.ycombinator.com/item?id=18120462&quot; title=&quot;discussion&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-fail-as-a-new-engineering-manager&quot;&gt;&lt;a href=&quot;https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a&quot; title=&quot;How to fail as a new engineering manager&quot;&gt; How to fail as a new engineering manager&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Buena lectura para ingenieros que están descubriendo el mundo de la gestión (&lt;a href=&quot;https://news.ycombinator.com/item?id=18011381&quot; title=&quot;discussion&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-you-should-and-shouldnt-join-a-startup&quot;&gt;&lt;a href=&quot;https://www.atrium.co/blog/work-at-a-startup/&quot; title=&quot;Why You Should (And Shouldn’t) Join a Startup&quot;&gt; Why You Should (And Shouldn’t) Join a Startup &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pros y contras de trabajar en una startup o gran empresa (&lt;a href=&quot;https://news.ycombinator.com/item?id=17757485&quot; title=&quot;discussion&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;find-your-passion-is-awful-advice&quot;&gt;&lt;a href=&quot;https://www.theatlantic.com/amp/article/564932/&quot; title=&quot;‘Find Your Passion’ Is Awful Advice &quot;&gt; ‘Find Your Passion’ Is Awful Advice  &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Muerte a los clichés (&lt;a href=&quot;https://news.ycombinator.com/item?id=17523149&quot; title=&quot;discussion&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Francis Yáñez</name>
+          
+            <email>hi@yanez.io</email>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <summary type="html">He estado algo ocupado este verano descansando, pero estoy de vuelta con la selección de artículos que encontré interesantes durante mi “desconexión”. Como siempre, la fuente es Hacker News, así que también dejo el enlace a la discusión .</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry xml:lang="en">
+      
+      <title type="html">Interesting articles from 2018 summer</title>
+      
+
+      
+
+      <link rel="canonical" href="http://localhost:4000/en/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="en" title="Interesting articles from 2018 summer" />
+
+      
+      
+        <link rel="alternate"  href="http://localhost:4000/es/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="es" title="Artículos interesantes del verano de 2018" />
+      
+        <link rel="alternate"  href="http://localhost:4000/en/2018-09-30/interesting-articles-from-2018-summer" type="text/html" hreflang="en" title="Interesting articles from 2018 summer" />
+      
+
+      <published>2018-09-30T00:00:00+02:00</published>
+      <updated>2018-09-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/en/2018-09-30/interesting-articles-from-2018-summer</id>
+      <content type="html" xml:base="http://localhost:4000/en/2018-09-30/interesting-articles-from-2018-summer">&lt;p&gt;I’ve been a little busy this summer taking a rest, but I’m back again with the selection of articles I found interesting during my “disconnection”. As usual, I get them mostly from Hacker News, so I also link the HN thread in the discussion link.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-annoying-habits-of-highly-effective-people&quot;&gt;&lt;a href=&quot;https://www.economist.com/business/2018/09/29/the-annoying-habits-of-highly-effective-people&quot; title=&quot;The Annoying Habits of Highly Effective People&quot;&gt; The Annoying Habits of Highly Effective People &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Your circumstances are different, so don’t try to copy wealthy people (&lt;a href=&quot;https://news.ycombinator.com/item?id=18111034&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-are-enterprises-so-slow&quot;&gt;&lt;a href=&quot;https://zwischenzugs.com/2018/10/02/why-are-enterprises-so-slow/&quot; title=&quot;Why are Enterprises so Slow&quot;&gt; Why are Enterprises so Slow &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We all know enterprises are slow, so let’s read the umpteenth article about it (&lt;a href=&quot;https://news.ycombinator.com/item?id=18120462&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-fail-as-a-new-engineering-manager&quot;&gt;&lt;a href=&quot;https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a&quot; title=&quot;How to fail as a new engineering manager&quot;&gt; How to fail as a new engineering manager&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Good lecture for engineers that are discovering the management world (&lt;a href=&quot;https://news.ycombinator.com/item?id=18011381&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-you-should-and-shouldnt-join-a-startup&quot;&gt;&lt;a href=&quot;https://www.atrium.co/blog/work-at-a-startup/&quot; title=&quot;Why You Should (And Shouldn’t) Join a Startup&quot;&gt; Why You Should (And Shouldn’t) Join a Startup &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pros and cons about working for a startup or enterprise (&lt;a href=&quot;https://news.ycombinator.com/item?id=17757485&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;find-your-passion-is-awful-advice&quot;&gt;&lt;a href=&quot;https://www.theatlantic.com/amp/article/564932/&quot; title=&quot;‘Find Your Passion’ Is Awful Advice &quot;&gt; ‘Find Your Passion’ Is Awful Advice  &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Kill the clichés (&lt;a href=&quot;https://news.ycombinator.com/item?id=17523149&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Francis Yáñez</name>
+          
+            <email>hi@yanez.io</email>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <summary type="html">I’ve been a little busy this summer taking a rest, but I’m back again with the selection of articles I found interesting during my “disconnection”. As usual, I get them mostly from Hacker News, so I also link the HN thread in the discussion link.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry xml:lang="es">
+      
+      <title type="html">Artículos interesantes de Junio 2018</title>
+      
+
+      
+
+      <link rel="canonical" href="http://localhost:4000/es/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="es" title="Artículos interesantes de Junio 2018" />
+
+      
+      
+        <link rel="alternate"  href="http://localhost:4000/es/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="es" title="Artículos interesantes de Junio 2018" />
+      
+        <link rel="alternate"  href="http://localhost:4000/en/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="en" title="Interesting articles from June" />
+      
+
+      <published>2018-06-30T00:00:00+02:00</published>
+      <updated>2018-06-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/es/2018-06-30/interesting-articles-from-june</id>
+      <content type="html" xml:base="http://localhost:4000/es/2018-06-30/interesting-articles-from-june">&lt;p&gt;He estado bastante ocupado este mes, así que la lista esta vez son solo un par de artículos que leí en Junio, sin descripción. Llamadme vago.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-get-rich-without-getting-lucky&quot;&gt;&lt;a href=&quot;https://threadreaderapp.com/thread/1002103360646823936.html&quot; title=&quot;How to Get Rich (without getting lucky)&quot;&gt;How to Get Rich (without getting lucky)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Lee la &lt;a href=&quot;https://news.ycombinator.com/item?id=17203304&quot; title=&quot;discusión&quot;&gt;discusión&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-secret-reason-that-development-teams-struggle-to-deliver-on-time-on-budget-or-on-scope&quot;&gt;&lt;a href=&quot;https://www.7pace.com/blog/software-development-planning-fallacy&quot; title=&quot;The Secret Reason that Development Teams Struggle to Deliver On Time, On Budget, or On Scope&quot;&gt;The Secret Reason that Development Teams Struggle to Deliver On Time, On Budget, or On Scope&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Lee la &lt;a href=&quot;https://news.ycombinator.com/item?id=17237468&quot; title=&quot;discusión&quot;&gt;discusión&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-machine-fired-me&quot;&gt;&lt;a href=&quot;https://idiallo.com/blog/when-a-machine-fired-me&quot; title=&quot;The machine Fired me&quot;&gt; The machine Fired me &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Lee la &lt;a href=&quot;https://news.ycombinator.com/item?id=17350645&quot; title=&quot;discusión&quot;&gt;discusión&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Francis Yáñez</name>
+          
+            <email>hi@yanez.io</email>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <summary type="html">He estado bastante ocupado este mes, así que la lista esta vez son solo un par de artículos que leí en Junio, sin descripción. Llamadme vago.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry xml:lang="en">
+      
+      <title type="html">Interesting articles from June</title>
+      
+
+      
+
+      <link rel="canonical" href="http://localhost:4000/en/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="en" title="Interesting articles from June" />
+
+      
+      
+        <link rel="alternate"  href="http://localhost:4000/es/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="es" title="Artículos interesantes de Junio 2018" />
+      
+        <link rel="alternate"  href="http://localhost:4000/en/2018-06-30/interesting-articles-from-june" type="text/html" hreflang="en" title="Interesting articles from June" />
+      
+
+      <published>2018-06-30T00:00:00+02:00</published>
+      <updated>2018-06-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/en/2018-06-30/interesting-articles-from-june</id>
+      <content type="html" xml:base="http://localhost:4000/en/2018-06-30/interesting-articles-from-june">&lt;p&gt;I’ve been really busy this month, so this list is just a couple of interesting articles I read this June, without description. Call me lazy.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-get-rich-without-getting-lucky&quot;&gt;&lt;a href=&quot;https://threadreaderapp.com/thread/1002103360646823936.html&quot; title=&quot;How to Get Rich (without getting lucky)&quot;&gt;How to Get Rich (without getting lucky)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Read the &lt;a href=&quot;https://news.ycombinator.com/item?id=17203304&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-secret-reason-that-development-teams-struggle-to-deliver-on-time-on-budget-or-on-scope&quot;&gt;&lt;a href=&quot;https://www.7pace.com/blog/software-development-planning-fallacy&quot; title=&quot;The Secret Reason that Development Teams Struggle to Deliver On Time, On Budget, or On Scope&quot;&gt;The Secret Reason that Development Teams Struggle to Deliver On Time, On Budget, or On Scope&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Read the &lt;a href=&quot;https://news.ycombinator.com/item?id=17237468&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-machine-fired-me&quot;&gt;&lt;a href=&quot;https://idiallo.com/blog/when-a-machine-fired-me&quot; title=&quot;The machine Fired me&quot;&gt; The machine Fired me &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Read the &lt;a href=&quot;https://news.ycombinator.com/item?id=17350645&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Francis Yáñez</name>
+          
+            <email>hi@yanez.io</email>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <summary type="html">I’ve been really busy this month, so this list is just a couple of interesting articles I read this June, without description. Call me lazy.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry xml:lang="es">
+      
       <title type="html">Lectura: El Arte y la Ciencia de no hacer nada</title>
       
 
       
 
-      <link rel="canonical" href="https://yanez.io/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada" type="text/html" hreflang="es" title="Lectura: El Arte y la Ciencia de no hacer nada" />
+      <link rel="canonical" href="http://localhost:4000/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada" type="text/html" hreflang="es" title="Lectura: El Arte y la Ciencia de no hacer nada" />
 
       
       
-        <link rel="alternate"  href="https://yanez.io/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada" type="text/html" hreflang="es" title="Lectura: El Arte y la Ciencia de no hacer nada" />
+        <link rel="alternate"  href="http://localhost:4000/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada" type="text/html" hreflang="es" title="Lectura: El Arte y la Ciencia de no hacer nada" />
       
 
       <published>2018-06-15T00:00:00+02:00</published>
       <updated>2018-06-15T00:00:00+02:00</updated>
-      <id>https://yanez.io/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada</id>
-      <content type="html" xml:base="https://yanez.io/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada">&lt;p&gt;No recuerdo de dónde vino la recomendación de leer este libro. Probablemente fue un artículo que apareció en mi &lt;em&gt;feed&lt;/em&gt;, y probablemente fue una noche entre copas de whisky y reflexiones. Lo importante es que apunté el título que llamó mi atención, y que acabó en mi &lt;em&gt;cola de lectura&lt;/em&gt;.&lt;/p&gt;
+      <id>http://localhost:4000/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada</id>
+      <content type="html" xml:base="http://localhost:4000/es/2018-06-15/el-arte-y-la-ciencia-de-no-hacer-nada">&lt;p&gt;No recuerdo de dónde vino la recomendación de leer este libro. Probablemente fue un artículo que apareció en mi &lt;em&gt;feed&lt;/em&gt;, y probablemente fue una noche entre copas de whisky y reflexiones. Lo importante es que apunté el título que llamó mi atención, y que acabó en mi &lt;em&gt;cola de lectura&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cuando lo empecé no sabía mucho de él, pero no me esperaba esa mezcla entre el ensayo desde el método científico con grandes dosis de psicología, y la neurociencia divulgativa. Fue una grata sorpresa.&lt;/p&gt;
 
@@ -122,24 +366,24 @@
   
     <entry xml:lang="es">
       
-      <title type="html">Artículos interesantes de Mayo</title>
+      <title type="html">Artículos interesantes de Mayo 2018</title>
       
 
       
 
-      <link rel="canonical" href="https://yanez.io/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo" />
+      <link rel="canonical" href="http://localhost:4000/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo 2018" />
 
       
       
-        <link rel="alternate"  href="https://yanez.io/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo" />
+        <link rel="alternate"  href="http://localhost:4000/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo 2018" />
       
-        <link rel="alternate"  href="https://yanez.io/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from May" />
+        <link rel="alternate"  href="http://localhost:4000/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from 2018 May" />
       
 
       <published>2018-05-31T00:00:00+02:00</published>
       <updated>2018-05-31T00:00:00+02:00</updated>
-      <id>https://yanez.io/es/2018-05-31/interesting-articles-from-may</id>
-      <content type="html" xml:base="https://yanez.io/es/2018-05-31/interesting-articles-from-may">&lt;p&gt;Una selección de artículos que he considerado interesantes en Mayo. La mayoría son de &lt;em&gt;Hacker News&lt;/em&gt;, así que también enlazo a los comentarios.&lt;/p&gt;
+      <id>http://localhost:4000/es/2018-05-31/interesting-articles-from-may</id>
+      <content type="html" xml:base="http://localhost:4000/es/2018-05-31/interesting-articles-from-may">&lt;p&gt;Una selección de artículos que he considerado interesantes en Mayo. La mayoría son de &lt;em&gt;Hacker News&lt;/em&gt;, así que también enlazo a los comentarios.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-we-should-bulldoze-the-business-school&quot;&gt;&lt;a href=&quot;https://www.theguardian.com/news/2018/apr/27/bulldoze-the-business-school&quot; title=&quot;Why we should bulldoze the business school&quot;&gt;Why we should bulldoze the business school&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Una crítica a las escuelas de negocios escrita por alguien que ha estado enseñando en una de ellas más de 20 años (&lt;a href=&quot;https://news.ycombinator.com/item?id=16946951&quot; title=&quot;discusión&quot;&gt;discusión&lt;/a&gt;).&lt;/p&gt;
@@ -185,24 +429,24 @@ Ghost, la history de un negocio orgánico basado en el software libre con unos i
   
     <entry xml:lang="en">
       
-      <title type="html">Interesting articles from May</title>
+      <title type="html">Interesting articles from 2018 May</title>
       
 
       
 
-      <link rel="canonical" href="https://yanez.io/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from May" />
+      <link rel="canonical" href="http://localhost:4000/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from 2018 May" />
 
       
       
-        <link rel="alternate"  href="https://yanez.io/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo" />
+        <link rel="alternate"  href="http://localhost:4000/es/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="es" title="Artículos interesantes de Mayo 2018" />
       
-        <link rel="alternate"  href="https://yanez.io/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from May" />
+        <link rel="alternate"  href="http://localhost:4000/en/2018-05-31/interesting-articles-from-may" type="text/html" hreflang="en" title="Interesting articles from 2018 May" />
       
 
       <published>2018-05-31T00:00:00+02:00</published>
       <updated>2018-05-31T00:00:00+02:00</updated>
-      <id>https://yanez.io/en/2018-05-31/interesting-articles-from-may</id>
-      <content type="html" xml:base="https://yanez.io/en/2018-05-31/interesting-articles-from-may">&lt;p&gt;A selection of articles I found interesting this May. I get them mostly from &lt;em&gt;Hacker News&lt;/em&gt; so I also link the HN thread in the discussion link.&lt;/p&gt;
+      <id>http://localhost:4000/en/2018-05-31/interesting-articles-from-may</id>
+      <content type="html" xml:base="http://localhost:4000/en/2018-05-31/interesting-articles-from-may">&lt;p&gt;A selection of articles I found interesting this May. I get them mostly from &lt;em&gt;Hacker News&lt;/em&gt; so I also link the HN thread in the discussion link.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-we-should-bulldoze-the-business-school&quot;&gt;&lt;a href=&quot;https://www.theguardian.com/news/2018/apr/27/bulldoze-the-business-school&quot; title=&quot;[Why we should bulldoze the business school]&quot;&gt;Why we should bulldoze the business school&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A critic to business schools written by someone that has been working and teaching in one of them for 20 years (&lt;a href=&quot;https://news.ycombinator.com/item?id=16946951&quot; title=&quot;discussion&quot;&gt;discussion&lt;/a&gt;).&lt;/p&gt;
@@ -252,17 +496,17 @@ Ghost, the story of a bootstrapped business based on open-source with yearly rev
 
       
 
-      <link rel="canonical" href="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
+      <link rel="canonical" href="http://localhost:4000/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
 
       
       
-        <link rel="alternate"  href="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
+        <link rel="alternate"  href="http://localhost:4000/en/2018-05-26/scoring-high-in-page-speed-with-jekyll" type="text/html" hreflang="en" title="Scoring high in PageSpeed with Jekyll" />
       
 
       <published>2018-05-26T00:00:00+02:00</published>
       <updated>2018-05-26T00:00:00+02:00</updated>
-      <id>https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll</id>
-      <content type="html" xml:base="https://yanez.io/en/2018-05-26/scoring-high-in-page-speed-with-jekyll">&lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-26_22-30-37.png&quot; alt=&quot;&quot; title=&quot;Google PageSpeed Insights&quot; /&gt;&lt;/p&gt;
+      <id>http://localhost:4000/en/2018-05-26/scoring-high-in-page-speed-with-jekyll</id>
+      <content type="html" xml:base="http://localhost:4000/en/2018-05-26/scoring-high-in-page-speed-with-jekyll">&lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-26_22-30-37.png&quot; alt=&quot;&quot; title=&quot;Google PageSpeed Insights&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;use-something-simple&quot;&gt;Use something simple&lt;/h2&gt;
 
@@ -436,17 +680,17 @@ Ghost, the story of a bootstrapped business based on open-source with yearly rev
 
       
 
-      <link rel="canonical" href="https://yanez.io/en/2018-05-01/dear-english-readers" type="text/html" hreflang="en" title="Dear English readers" />
+      <link rel="canonical" href="http://localhost:4000/en/2018-05-01/dear-english-readers" type="text/html" hreflang="en" title="Dear English readers" />
 
       
       
-        <link rel="alternate"  href="https://yanez.io/en/2018-05-01/dear-english-readers" type="text/html" hreflang="en" title="Dear English readers" />
+        <link rel="alternate"  href="http://localhost:4000/en/2018-05-01/dear-english-readers" type="text/html" hreflang="en" title="Dear English readers" />
       
 
       <published>2018-05-01T00:00:00+02:00</published>
       <updated>2018-05-01T00:00:00+02:00</updated>
-      <id>https://yanez.io/en/2018-05-01/dear-english-readers</id>
-      <content type="html" xml:base="https://yanez.io/en/2018-05-01/dear-english-readers">&lt;p&gt;I apologize as I’m not a native English speaker and the majority of the publications in this personal blog will be in Spanish.&lt;/p&gt;
+      <id>http://localhost:4000/en/2018-05-01/dear-english-readers</id>
+      <content type="html" xml:base="http://localhost:4000/en/2018-05-01/dear-english-readers">&lt;p&gt;I apologize as I’m not a native English speaker and the majority of the publications in this personal blog will be in Spanish.&lt;/p&gt;
 
 &lt;p&gt;When using a technical language, I feel entirely comfortable in English, and there so I’ll write those technical articles first in English and then translate them into Spanish, so this blog has both versions.&lt;/p&gt;
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Interesting articles from May
+title: Interesting articles from 2018 May
 lang: en
-lang_order: 2
-ref:  interesting-articles-from-may
+lang\_order: 2
+ref:  interesting-articles-from-2018-may
 ---
 A selection of articles I found interesting this May. I get them mostly from *Hacker News* so I also link the HN thread in the discussion link.
 
